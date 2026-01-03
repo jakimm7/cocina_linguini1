@@ -18,7 +18,7 @@ Luego, ejecutaremos el ejecutable con la siguiente línea:
 
 ### Descarga
 
-Hace click acá para descargar el juego y comenzar a ayudar a linguini en la cocina!
+Hace **[click acá](https://github.com/jakimm7/cocina_linguini1/releases/download/rar/linguini_v1.0.zip)** para descargar el juego y comenzar a ayudar a linguini en la cocina!
 
 Autor y desarrollador: **Santiago Jakim**
 
