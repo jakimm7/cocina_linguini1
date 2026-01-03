@@ -15,7 +15,8 @@ const char TECLA_TOMAR_PEDIDO = 'T';
 const char TECLA_ACTIVAR_PATINES = 'P';
 
 bool tecla_es_valida(char accion){
-    return(accion == TECLA_ADELANTE || accion == TECLA_ATRAS || accion == TECLA_DERECHA || accion == TECLA_IZQUIERDA || accion == TECLA_MOPA || accion == TECLA_TOMAR_PEDIDO || accion == TECLA_ACTIVAR_PATINES);
+    return(accion == TECLA_ADELANTE || accion == TECLA_ATRAS || accion == TECLA_DERECHA || 
+        accion == TECLA_IZQUIERDA || accion == TECLA_MOPA || accion == TECLA_TOMAR_PEDIDO || accion == TECLA_ACTIVAR_PATINES);
 }
 
 int main () {
@@ -32,8 +33,8 @@ int main () {
         scanf(" %c", &accion);
         system("clear");
         while(!tecla_es_valida(accion)){
-            printf("Oprimí una tecla válida.\n");
             mostrar_juego(juego);
+            printf("Oprimí una tecla válida.\n");
             scanf(" %c", &accion);
         }
         system("clear");
