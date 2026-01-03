@@ -39,6 +39,34 @@ Luego, ejecutaremos el ejecutable con la siguiente línea:
 
     ./juego
 
+### 🛠️ Habilidades Técnicas Aplicadas
+
+En el desarrollo de este proyecto se aplicaron conceptos fundamentales de ciencias de la computación y buenas prácticas de programación en C:
+
+1. Gestión de Memoria Dinámica
+
+    **Asignación Eficiente**: Implementación de redimensionamiento dinámico de memoria mediante realloc para gestionar vectores de pedidos en preparación y listos, optimizando el uso de recursos según la demanda del juego.
+
+    **Ciclo de Vida**: Gestión del ciclo de vida de los datos, asegurando la liberación de memoria mediante una función de destrucción controlada para prevenir memory leaks.
+
+2. Arquitectura de Datos y Modularidad
+
+    **Estructuras Compuestas**: Diseño de tipos de datos abstractos (TDA) mediante structs anidados para representar entidades complejas como la cocina, el mozo y el estado global del juego.
+
+    **Encapsulamiento**: Separación clara entre la lógica de negocio (restaurant.c) y la interfaz de usuario/bucle principal (juego.c), facilitando el mantenimiento y la escalabilidad del código.
+
+3. Lógica Algorítmica y Geometría
+
+    **Procesamiento de Matrices**: Manipulación y validación de una matriz de 20x20 para representar el terreno, gestionando colisiones y superposición de elementos en tiempo de ejecución.
+
+    **Cálculos Espaciales**: Aplicación de la Distancia de Manhattan para determinar la proximidad entre Linguini, las mesas y los obstáculos, optimizando la toma de decisiones del motor de juego.
+
+4. Desarrollo de Interfaces de Consola (CLI)
+
+    **UX por Consola**: Creación de una interfaz visual dinámica utilizando códigos de escape ANSI para el manejo de colores y limpieza de pantalla, mejorando la experiencia del usuario en un entorno de texto.
+
+    **Validación de Inputs**: Implementación de un sistema robusto de captura y filtrado de datos para asegurar la integridad del flujo de juego.
+
 ### 📥 Descarga
 
 Hace **[click acá](https://github.com/jakimm7/cocina_linguini1/releases/download/rar/linguini_v1.0.zip)** para descargar el juego y comenzar a ayudar a linguini en la cocina!
